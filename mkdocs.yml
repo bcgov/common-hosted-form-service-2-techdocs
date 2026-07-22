@@ -1,0 +1,17 @@
+site_name: "chefs-2-techdocs"
+site_description: "CHEFS2 Technical Documentation"
+docs_dir: "docs"
+repo_url: https://github.com/bcgov/common-hosted-form-service-2-techdocs
+edit_uri: edit/main/docs/
+plugins:
+  - techdocs-core
+  - ezlinks
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - mkpatcher:
+      location: patcher.py
+nav:
+  - Home: index.md
+  - About CHEFS: About.md
